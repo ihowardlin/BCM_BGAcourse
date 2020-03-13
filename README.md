@@ -19,12 +19,10 @@ Run the command hard-reset to do the account set up for this class. Among other 
 Log out using the exit command and then log back in. This allows the changes you made above to take effect. 
 
 You should be able to run jupyter now by typing the start-jupyter command. 
-
-Run the command check-jupyter you will see the process running jupyter. It should look like this: 
-
 ```
 start-jupyter
 ```
+Run the command check-jupyter you will see the process running jupyter.
 ```
 check-jupyter
 http://localhost:199##/?token=3c116039b63162941f286cf8a626047018d500514d80714
