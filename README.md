@@ -32,6 +32,12 @@ http://localhost:199##/?token=3c116039b63162941f286cf8a626047018d500514d80714
 ```
 Now open another terminal. This can be done by using the navigation bar (Shell > New Window > New Window with Profile - Basic) or by using the hotkey (command ⌘ + N).
 
+Run the following command, substituting your student number and port number:
+
+```
+ssh -v student##@sphere.grid.bcm.edu -NL 199##:localhost:199##
+```
+
 ### Accessing the CIBR Cluster (Windows)
 
 Download your preferred SSH client or terminal emulator. Some popular choices include:
