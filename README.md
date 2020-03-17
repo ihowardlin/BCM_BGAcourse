@@ -5,6 +5,7 @@ github repository with useful information for Bioinformatics &amp; Genomic Analy
   * [Getting Started](#getting-started)
     + [Accessing the CIBR Cluster (MAC)](#accessing-the-cibr-cluster-mac)
     + [Accessing the CIBR Cluster (Windows)](#accessing-the-cibr-cluster-windows)
+  * [Moving Files Around](#moving-files-around)
   * [Using vcftools](#using-vcftools)
   * [Analyzing Genomic FASTA Files (genomic.fna.gz)](#analyzing-genomic-fasta-files-genomicfnagz)
   
@@ -60,6 +61,19 @@ and enter the password when prompted.
 ```
 student14@sphere.grid.bcm.edu's password: 
 ```
+## Moving Files Around
+
+To move files to the sphere you can use the scp command. If you are moving a file from your local machine to the cluster, open a terminal and navigate to the directory of the file on your local machine. Then enter the following:
+```
+scp sample.txt student14@sphere.grid.bcm.edu:/home/student14
+```
+The previous command will place the file sample.txt into the /home/student14 directory on the cluster. If you want to move a file sample.txt from the cluster to a folder on your local machine you can use the following command.
+
+```
+scp student14@sphere.grid.bcm.edu:/home/student14/Lab1/sample.txt /drives/c/Users/Userman/Folder
+```
+This command will move the file sample.txt from the /home/student14/Lab1 directory on the cluster into a Folder under the user Userman on the C drive of a Windows machine.
+
 ## Using vcftools
 Begin by copying the files in /home/student20/Lab1_2019_Unix/ to your Lab1 directory. Check that the HG002-HG003-HG004.jointVC.filter_Annotated.vcf.gz file is complete.
 
