@@ -5,6 +5,7 @@ github repository with useful information for Bioinformatics &amp; Genomic Analy
   * [Getting Started](#getting-started)
     + [Accessing the CIBR Cluster (MAC)](#accessing-the-cibr-cluster-mac)
     + [Accessing the CIBR Cluster (Windows)](#accessing-the-cibr-cluster-windows)
+  * [Using vcftools](#using-vcftools)
   * [Analyzing Genomic FASTA Files (genomic.fna.gz)](#analyzing-genomic-fasta-files-genomicfnagz)
   
 ## Getting Started
@@ -59,8 +60,13 @@ and enter the password when prompted.
 ```
 student14@sphere.grid.bcm.edu's password: 
 ```
+## Using vcftools
+
+Use vcftools to examine the file.  From the https://vcftools.github.io/man_latest.html guide, do the examples using your student account # as the chromosome (for accounts 1 to 22), chromosome X for accounts 23 and 33, chromosome Y for accounts 24 and 34, chromosome 20 for account 25 and chromosome 2 for account 26.  Accounts 27 to 32 should use chromosomes N-10 (i.e. account 27 uses chromosome 17).
 
 ## Analyzing Genomic FASTA Files (genomic.fna.gz)
+
+Begin by copying the files in /home/student20/Lab1_2019_Unix/ to your Lab1 directory. Check that the HG002-HG003-HG004.jointVC.filter_Annotated.vcf.gz file is complete.
 
 These are the accessions for the new genomes assemblies we discussed in class: GCA_001524155, GCA_002180035, GCA_002077035, GCA_002208065, GCA_002209525, GCA_002872155, GCA_003070785, GCA_003574075, GCA_003601015, GCA_003086635. You can search for the list at NCBI by combining them with OR: GCA_001524155 OR GCA_002180035 OR GCA_002077035 OR GCA_002208065 OR GCA_002209525 OR GCA_002872155 OR GCA_003070785 OR GCA_003574075 OR GCA_003601015 OR GCA_003086635 and searching using Entrez, they are in the Assembly section. Look at the linked data and descriptions, but you don’t need to download the files. I downloaded the Fasta sequences and other files and will put them in:
 
