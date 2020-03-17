@@ -30,13 +30,13 @@ You should get an output that shows your localhost and your port number separate
 ```
 http://localhost:199##/?token=3c116039b63162941f286cf8a626047018d500514d80714
 ```
-Now open another terminal. This can be done by using the navigation bar (Shell > New Window > New Window with Profile - Basic) or by using the hotkey (command ⌘ + N).
+Now open another terminal. This can be done by using the navigation bar (Shell > New Window > New Window with Profile - Basic) or by using the hotkey (command ⌘ + N). IMPORTANT: You should have TWO terminals running at this time.
 
-Run the following command, substituting your student number and port number:
-
+In the new terminal, run the following command, substituting your student number and port number:
 ```
 ssh -v student##@sphere.grid.bcm.edu -NL 199##:localhost:199##
 ```
+Now open your browser and type in http://localhost:199##/ where ## is equal to your student number. In this case it would be http://localhost:19914/
 
 ### Accessing the CIBR Cluster (Windows)
 
