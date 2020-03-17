@@ -61,6 +61,7 @@ and enter the password when prompted.
 student14@sphere.grid.bcm.edu's password: 
 ```
 ## Using vcftools
+Begin by copying the files in /home/student20/Lab1_2019_Unix/ to your Lab1 directory. Check that the HG002-HG003-HG004.jointVC.filter_Annotated.vcf.gz file is complete.
 
 Use vcftools to examine the file.  From the https://vcftools.github.io/man_latest.html guide, do the examples using your student account # as the chromosome (for accounts 1 to 22), chromosome X for accounts 23 and 33, chromosome Y for accounts 24 and 34, chromosome 20 for account 25 and chromosome 2 for account 26.  Accounts 27 to 32 should use chromosomes N-10 (i.e. account 27 uses chromosome 17).
 
