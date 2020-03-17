@@ -1,8 +1,13 @@
 # BCM_BGAcourse
 github repository with useful information for Bioinformatics &amp; Genomic Analysis taught at Baylor College of Medicine
 
+## Table of Contents
+  * [Getting Started](#getting-started)
+    + [Accessing the CIBR Cluster (MAC)](#accessing-the-cibr-cluster-mac)
+    + [Accessing the CIBR Cluster (Windows)](#accessing-the-cibr-cluster-windows)
+  * [Analyzing Genomic FASTA Files (genomic.fna.gz)](#analyzing-genomic-fasta-files-genomicfnagz)
+  
 ## Getting Started
-
 ### Accessing the CIBR Cluster (MAC)
 Open a terminal window on your laptop/computer and using your assigned student# account (the example below assumes that your assigned student # is 14) and eight character password enter the following:
 ```
@@ -55,7 +60,7 @@ and enter the password when prompted.
 student14@sphere.grid.bcm.edu's password: 
 ```
 
-### Analyzing Genomic FASTA Files (genomic.fna.gz)
+## Analyzing Genomic FASTA Files (genomic.fna.gz)
 
 These are the accessions for the new genomes assemblies we discussed in class: GCA_001524155, GCA_002180035, GCA_002077035, GCA_002208065, GCA_002209525, GCA_002872155, GCA_003070785, GCA_003574075, GCA_003601015, GCA_003086635. You can search for the list at NCBI by combining them with OR: GCA_001524155 OR GCA_002180035 OR GCA_002077035 OR GCA_002208065 OR GCA_002209525 OR GCA_002872155 OR GCA_003070785 OR GCA_003574075 OR GCA_003601015 OR GCA_003086635 and searching using Entrez, they are in the Assembly section. Look at the linked data and descriptions, but you don’t need to download the files. I downloaded the Fasta sequences and other files and will put them in:
 
