@@ -4,7 +4,6 @@ github repository with useful information for Bioinformatics &amp; Genomic Analy
 ## Getting Started
 
 ### Accessing the CIBR Cluster (MAC)
-
 Open a terminal window on your laptop/computer and using your assigned student# account (the example below assumes that your assigned student # is 14) and eight character password enter the following:
 ```
 ssh student14@sphere.grid.bcm.edu
