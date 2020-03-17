@@ -55,3 +55,21 @@ and enter the password when prompted.
 ```
 student14@sphere.grid.bcm.edu's password: 
 ```
+
+### Analyzing Genomic FASTA Files (genomic.fna.gz)
+
+These are the accessions for the new genomes assemblies we discussed in class: GCA_001524155, GCA_002180035, GCA_002077035, GCA_002208065, GCA_002209525, GCA_002872155, GCA_003070785, GCA_003574075, GCA_003601015, GCA_003086635. You can search for the list at NCBI by combining them with OR: GCA_001524155 OR GCA_002180035 OR GCA_002077035 OR GCA_002208065 OR GCA_002209525 OR GCA_002872155 OR GCA_003070785 OR GCA_003574075 OR GCA_003601015 OR GCA_003086635 and searching using Entrez, they are in the Assembly section. Look at the linked data and descriptions, but you don’t need to download the files. I downloaded the Fasta sequences and other files and will put them in:
+
+```
+/home/student20/Lab1_2020_Unix/Lab1_2019_Unix/NewHumanGenomes/FastaFiles/ncbi-genomes-2019-03-15
+```
+
+First start by copying those FASTA files into your own student directory using:
+```
+cp -R /home/student20/Lab1_2020_Unix/Lab1_2019_Unix/NewHumanGenomes/FastaFiles/ncbi-genomes-2019-03-15/ /home/student14/Lab1/
+```
+Next you want to uncompress the files using gunzip by using the following command. This command will gunzip every file in the directory that ends with .fna.gz.
+
+```
+gunzip *.fna.gz
+```
