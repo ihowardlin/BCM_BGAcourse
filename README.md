@@ -5,7 +5,7 @@ github repository with useful information for Bioinformatics &amp; Genomic Analy
   * [Getting Started](#getting-started)
     + [Accessing the CIBR Cluster (MAC)](#accessing-the-cibr-cluster-mac)
     + [Accessing the CIBR Cluster (Windows)](#accessing-the-cibr-cluster-windows)
-  * [Moving Files Around](#moving-files-around)
+  * [Moving Files Around (scp)](#moving-files-around-scp)
   * [Using vcftools](#using-vcftools)
   * [Analyzing Genomic FASTA Files (genomic.fna.gz)](#analyzing-genomic-fasta-files-genomicfnagz)
   
@@ -85,7 +85,7 @@ ssh -v student##@sphere.grid.bcm.edu -NL 199##:localhost:199##
 ```
 Now open your browser and type in http://localhost:199##/ where ## is equal to your student number. In this case it would be http://localhost:19914/
 
-## Moving Files Around
+## Moving Files Around (scp)
 
 To move files to the sphere you can use the scp command. If you are moving a file from your local machine to the cluster, open a terminal and navigate to the directory of the file on your local machine. Then enter the following:
 ```
