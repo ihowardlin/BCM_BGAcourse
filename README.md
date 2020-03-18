@@ -98,6 +98,12 @@ scp student14@sphere.grid.bcm.edu:/home/student14/Lab1/sample.txt /drives/c/User
 ```
 This command will move the file sample.txt from the /home/student14/Lab1 directory on the cluster into a Folder under the user Userman on the C drive of a Windows machine.
 
+If you want to move an entire directory, all you need to do is include the -r flag. With -r specified, the directory tree is recursively traversed and each file encountered is downloaded.
+
+```
+scp -r /drives/c/Users/Userman/Folder student14@sphere.grid.bcm.edu:/home/student14
+```
+
 ## Using vcftools
 Begin by copying the files in /home/student20/Lab1_2019_Unix/ to your Lab1 directory. Check that the HG002-HG003-HG004.jointVC.filter_Annotated.vcf.gz file is complete.
 
