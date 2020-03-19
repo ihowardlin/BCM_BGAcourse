@@ -8,7 +8,8 @@ github repository with useful information for Bioinformatics &amp; Genomic Analy
   * [Moving Files Around (scp)](#moving-files-around-scp)
   * [Using vcftools](#using-vcftools)
   * [Analyzing Genomic FASTA Files (genomic.fna.gz)](#analyzing-genomic-fasta-files-genomicfnagz)
-  *
+  * [Useful Information](#useful-information)
+    + [Bash Commands in Jupyter](#bash-commands-in-jupyter)
   
 ## Getting Started
 ### Accessing the CIBR Cluster (MAC)
@@ -152,6 +153,7 @@ gunzip *.fna.gz
 ```
 ## Useful Information
 
+### Bash Commands in Jupyter
 Most bash commands need to have an exclamation point (or bang sign) in front to be properly interpreted in jupyter notebook. 
 
 <img src="https://github.com/ihowardlin/BCM_BGAcourse/blob/master/bashcmds_jupyternotebook.png" width="1000" height="375">
