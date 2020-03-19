@@ -130,8 +130,48 @@ You should get the same output, confirming that the download completed correctly
 
 Use vcftools to examine the file.  From the https://vcftools.github.io/man_latest.html guide, do the examples using your student account # as the chromosome (for accounts 1 to 22), chromosome X for accounts 23 and 33, chromosome Y for accounts 24 and 34, chromosome 20 for account 25 and chromosome 2 for account 26.  Accounts 27 to 32 should use chromosomes N-10 (i.e. account 27 uses chromosome 17).
 
+The following command will output allele frequency for all sites in the input vcf file from chromosome 14
+```
+/home/student20/old/2019/bin/vcftools --gzvcf HG002-HG003-HG004.jointVC.filter_Annotated.vcf.gz --freq --chr 14 --out chr14_analysis   
+```
+You should see something that looks like this.
+```
+VCFtools - 0.1.15
+(C) Adam Auton and Anthony Marcketta 2009
 
+Parameters as interpreted:
+        --gzvcf HG002-HG003-HG004.jointVC.filter_Annotated.vcf.gz
+        --chr 14
+        --freq
+        --out chr14_analysis
 
+Using zlib version: 1.2.7
+After filtering, kept 3 out of 3 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 3775 out of a possible 98303 Sites
+Run Time = 1.00 seconds
+```
+The following command will output a new vcf file from the input vcf file that removes any indel sites
+```
+d/2019/bin/vcftools --gzvcf HG002-HG003-HG004.jointVC.filter_Annotated.vcf.gz --remove-indels --recode --recode-INFO-all --out SNPs_only
+```
+```
+VCFtools - 0.1.15
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+        --gzvcf HG002-HG003-HG004.jointVC.filter_Annotated.vcf.gz
+        --recode-INFO-all
+        --out SNPs_only
+        --recode
+        --remove-indels
+
+Using zlib version: 1.2.7
+After filtering, kept 3 out of 3 Individuals
+Outputting VCF file...
+After filtering, kept 87096 out of a possible 98303 Sites
+Run Time = 7.00 seconds
+```
 ## Analyzing Genomic FASTA Files (genomic.fna.gz)
 
 Begin by copying the files in /home/student20/Lab1_2019_Unix/ to your Lab1 directory. Check that the HG002-HG003-HG004.jointVC.filter_Annotated.vcf.gz file is complete.
