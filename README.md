@@ -8,6 +8,7 @@ github repository with useful information for Bioinformatics &amp; Genomic Analy
   * [Moving Files Around (scp)](#moving-files-around-scp)
   * [Using vcftools](#using-vcftools)
   * [Analyzing Genomic FASTA Files (genomic.fna.gz)](#analyzing-genomic-fasta-files-genomicfnagz)
+  *
   
 ## Getting Started
 ### Accessing the CIBR Cluster (MAC)
@@ -105,9 +106,30 @@ scp -r /drives/c/Users/Userman/Folder student14@sphere.grid.bcm.edu:/home/studen
 ```
 
 ## Using vcftools
-Begin by copying the files in /home/student20/Lab1_2019_Unix/ to your Lab1 directory. Check that the HG002-HG003-HG004.jointVC.filter_Annotated.vcf.gz file is complete.
+Begin by copying the files in /home/student20/Lab1_2019_Unix/ to your Lab1 directory.
+
+```
+cp /home/student20/Lab1_2020_Unix/Lab1_2019_Unix/HG002-HG003-HG004.jointVC.filter_Annotated.vcf.gz /home/student14/Lab1
+```
+You can check that the HG002-HG003-HG004.jointVC.filter_Annotated.vcf.gz file is complete by using md5sum and typing the following command into your terminal.
+
+```
+md5sum /home/student20/Lab1_2020_Unix/Lab1_2019_Unix/HG002-HG003-HG004.jointVC.filter_Annotated.vcf.gz
+```
+You should get something that looks like the following
+```
+c98fc778c5aad6c459d485cae129aebc  /home/student20/Lab1_2020_Unix/Lab1_2019_Unix/HG002-HG003-HG004.jointVC.filter_Annotated.vcf.gz
+```
+Now run the same md5sum command but using the location to which you just copied the 'HG002-HG003-HG004.jointVC.filter_Annotated.vcf.gz' file. If you are already in that specific directory you can just type:
+
+```
+md5sum HG002-HG003-HG004.jointVC.filter_Annotated.vcf.gz
+```
+You should get the same output, confirming that the download completed correctly.
 
 Use vcftools to examine the file.  From the https://vcftools.github.io/man_latest.html guide, do the examples using your student account # as the chromosome (for accounts 1 to 22), chromosome X for accounts 23 and 33, chromosome Y for accounts 24 and 34, chromosome 20 for account 25 and chromosome 2 for account 26.  Accounts 27 to 32 should use chromosomes N-10 (i.e. account 27 uses chromosome 17).
+
+
 
 ## Analyzing Genomic FASTA Files (genomic.fna.gz)
 
@@ -128,3 +150,10 @@ Next you want to uncompress the files using gunzip by using the following comman
 ```
 gunzip *.fna.gz
 ```
+## Useful Information
+
+Most bash commands need to have an exclamation point (or bang sign) in front to be properly interpreted in jupyter notebook. 
+
+
+A second alternative is to put %%bash at the beginning of the code bloc so that all the code in the block will be interpreted as bash commands.
+
