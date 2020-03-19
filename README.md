@@ -160,4 +160,4 @@ Most bash commands need to have an exclamation point (or bang sign) in front to 
 
 A second alternative is to put %%bash at the beginning of the code bloc so that all the code in the block will be interpreted as bash commands.
 
-<img src="https://github.com/ihowardlin/BCM_BGAcourse/blob/master/bashcmds_jupyternotebook2.png" width="1000" height="200">
+<img src="https://github.com/ihowardlin/BCM_BGAcourse/blob/master/bashcmds_jupyternotebook2.png" width="1000" height="225">
