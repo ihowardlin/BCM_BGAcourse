@@ -81,7 +81,7 @@ http://localhost:199##/?token=3c116039b63162941f286cf8a626047018d500514d80714
 ```
 Now open another terminal. This can be done by using the navigation bar (Shell > New Window > New Window with Profile - Basic) or by using the hotkey (command ⌘ + N). IMPORTANT: You should have TWO terminals running at this time.
 
-<img src="https://github.com/ihowardlin/BCM_BGAcourse/blob/master/mobaXterm.png" width="1000" height="285">
+<img src="https://github.com/ihowardlin/BCM_BGAcourse/blob/master/mobaXterm.png" width="1000" height="500">
 
 In the new terminal, run the following command, substituting your student number and port number:
 ```
