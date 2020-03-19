@@ -153,7 +153,7 @@ Run Time = 1.00 seconds
 ```
 The following command will output a new vcf file from the input vcf file that removes any indel sites
 ```
-d/2019/bin/vcftools --gzvcf HG002-HG003-HG004.jointVC.filter_Annotated.vcf.gz --remove-indels --recode --recode-INFO-all --out SNPs_only
+/home/student20/old/2019/bin/vcftools --gzvcf HG002-HG003-HG004.jointVC.filter_Annotated.vcf.gz --remove-indels --recode --recode-INFO-all --out SNPs_only
 ```
 ```
 VCFtools - 0.1.15
