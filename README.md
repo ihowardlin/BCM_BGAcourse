@@ -79,9 +79,9 @@ You should get an output that shows your localhost and your port number separate
 ```
 http://localhost:199##/?token=3c116039b63162941f286cf8a626047018d500514d80714
 ```
-Now open another terminal. This can be done by using the navigation bar (Shell > New Window > New Window with Profile - Basic) or by using the hotkey (command ⌘ + N). IMPORTANT: You should have TWO terminals running at this time.
+Now open another terminal. If you are using MobaXterm this can be done by using the navigation bar (Terminal > Open new tab) or by pressing the + button.
 
-<img src="https://github.com/ihowardlin/BCM_BGAcourse/blob/master/mobaXterm.png" width="1000" height="500">
+<img src="https://github.com/ihowardlin/BCM_BGAcourse/blob/master/mobaXterm.png" width="1000" height="600">
 
 In the new terminal, run the following command, substituting your student number and port number:
 ```
