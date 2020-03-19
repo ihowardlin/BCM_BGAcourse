@@ -154,7 +154,7 @@ gunzip *.fna.gz
 
 Most bash commands need to have an exclamation point (or bang sign) in front to be properly interpreted in jupyter notebook. 
 
-<img src="https://github.com/ihowardlin/BCM_BGAcourse/blob/master/bashcmds_jupyternotebook.png" width="1122" height="471">
+<img src="https://github.com/ihowardlin/BCM_BGAcourse/blob/master/bashcmds_jupyternotebook.png" width="1000" height="375">
 
 A second alternative is to put %%bash at the beginning of the code bloc so that all the code in the block will be interpreted as bash commands.
 
